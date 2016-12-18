@@ -1,0 +1,3 @@
+dbName="phone"
+dbLogin="root"
+dbPasswd="rootmaggle"

@@ -1,0 +1,3 @@
+dbName="YourDbName"
+dbLogin="YourDbLogin"
+dbPasswd="YourDbPasswd"

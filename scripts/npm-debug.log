@@ -1,0 +1,39 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'install', '-g', 'ws' ]
+2 info using npm@1.4.21
+3 info using node@v0.10.25
+4 verbose cache add [ 'ws', null ]
+5 verbose cache add name=undefined spec="ws" args=["ws",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'ws',
+6 verbose parsed url   path: 'ws',
+6 verbose parsed url   href: 'ws' }
+7 silly lockFile 1457b75d-ws ws
+8 error Error: Attempt to unlock ws, which hasn't been locked
+8 error     at unlock (/usr/share/npm/lib/utils/locker.js:44:11)
+8 error     at cb (/usr/share/npm/lib/cache/add-local.js:30:5)
+8 error     at /usr/share/npm/lib/cache/add-local.js:47:20
+8 error     at /usr/share/npm/lib/utils/locker.js:22:20
+8 error     at /usr/share/npm/node_modules/inflight/inflight.js:22:7
+8 error     at Array.forEach (native)
+8 error     at res (/usr/share/npm/node_modules/inflight/inflight.js:21:9)
+8 error     at /usr/lib/nodejs/once.js:17:15
+8 error     at afterMkdir (/usr/share/npm/lib/cache/get-stat.js:53:14)
+8 error     at /usr/lib/nodejs/mkdirp/index.js:46:53
+9 error If you need help, you may report this *entire* log,
+9 error including the npm and node versions, at:
+9 error     <http://github.com/npm/npm/issues>
+10 error System Linux 3.19.0-64-generic
+11 error command "/usr/bin/nodejs" "/usr/bin/npm" "install" "-g" "ws"
+12 error cwd /home/lordroke/www/sms/scripts
+13 error node -v v0.10.25
+14 error npm -v 1.4.21
+15 verbose exit [ 1, true ]
